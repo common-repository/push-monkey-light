@@ -1,0 +1,186 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-09 06:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/class_push_monkey_light_core.php:110
+msgid ".php file"
+msgstr ""
+
+#: includes/class_push_monkey_light_core.php:174
+#: includes/class_push_monkey_light_core.php:174
+msgid "Push monkey light"
+msgstr ""
+
+#: includes/class_push_monkey_light_core.php:270
+msgid "Check manifest.json file of the"
+msgstr ""
+
+#: includes/class_push_monkey_light_core.php:270
+msgid "plugin here"
+msgstr ""
+
+#: includes/class_push_monkey_light_core.php:270
+msgid ""
+". And copy the \"gcm_sender_id\": \"some-id\",\"gcm_user_visible_only\": "
+"true in your theme's manifest.json"
+msgstr ""
+
+#: includes/class_push_monkey_light_core.php:303
+msgid "The two fields can't be empty."
+msgstr ""
+
+#: includes/class_push_monkey_light_core.php:312
+msgid "The Account Key seems to be invalid."
+msgstr ""
+
+#: templates/pages/settings/log-in.php:6 templates/pages/settings/log-in.php:45
+msgid "Mobile and Desktop Push Notifications"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:9
+msgid ""
+"Automatically send push notifications directly to desktops or mobiles when "
+"new content is fresh from the oven."
+msgstr ""
+
+#: templates/pages/settings/log-in.php:10
+msgid ""
+"You would like a more personal touch? Sending custom notifications is just "
+"as easy."
+msgstr ""
+
+#: templates/pages/settings/log-in.php:10
+msgid "Learn more"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:20
+msgid "Subscribers Insigths &amp; Statistics"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:23
+msgid ""
+"Relevant and powerful insights about your subscribers and their behaviour, "
+"right in your WordPress Dashboard."
+msgstr ""
+
+#: templates/pages/settings/log-in.php:24
+msgid "Easily track growth, platform and location in your"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:24
+msgid "Dashboard on geptushmonkey.com"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:31
+msgid "Best WordPress Integration"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:34
+msgid ""
+"A deep integration with your entire WordPress setup ensure that push "
+"notifications are sent according to the content you publish."
+msgstr ""
+
+#: templates/pages/settings/log-in.php:35
+msgid ""
+"To get access to the full list of features, please install the Push Monkey"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:35
+msgid "Pro"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:35
+msgid "WordPress plugin."
+msgstr ""
+
+#: templates/pages/settings/log-in.php:49
+msgid "Before"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:49
+msgid ""
+"you enable push notifications for your website, you need to create a free "
+"account on"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:49
+#: templates/pages/settings/log-in.php:51
+msgid "getpushmonkey.com"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:49
+msgid "Click here &gt;"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:49
+msgid "to create one now."
+msgstr ""
+
+#: templates/pages/settings/log-in.php:49
+msgid "No credit cards required!"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:51
+msgid "After creating an account, copy your"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:51
+#: templates/pages/settings/log-in.php:53
+msgid "Account Key"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:51
+msgid ""
+"from the Installation page and paste it in the field below. Check this "
+"article to see"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:51
+msgid "how to get your Account Key"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:51
+msgid "You can then manage your account and see more options by signing in at"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:77
+msgid "Activate"
+msgstr ""
+
+#: templates/pages/settings/log-in.php:79
+msgid "Deactivate"
+msgstr ""
+
+#. Name of the plugin
+msgid "Push Monkey Light - Web Push Notifications"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Engage & delight your readers with Desktop Push Notifications - a new "
+"subscription channel directly to the mobiles or desktops of your readers. To "
+"start, register on <a href=\"https://www.getpushmonkey.com?"
+"source=plugin_desc\" target=\"_blank\">getpushmonkey.com</a>. Currently this "
+"works for Chrome, Firefox and Safari on MacOS, Windows and Android."
+msgstr ""
+
+#. Author of the plugin
+msgid "Get Push Monkey Ltd."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.getpushmonkey.com/?source=plugin"
+msgstr ""

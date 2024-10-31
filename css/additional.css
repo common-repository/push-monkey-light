@@ -1,0 +1,473 @@
+
+/* ====================================================
+   Global
+   ========================== */
+
+body, html {
+    height: auto!important;
+}
+
+.push-monkey {
+    margin-top: 30px;
+}
+
+.panel-fullscreen-wrap {
+    z-index: 99999;
+}
+
+.error .btn,
+.btn {
+    text-decoration: none;
+}
+
+a:active, a:focus {
+  outline: 0 !important;
+  -moz-outline-style: none !important;
+  box-shadow: none !important;
+}
+
+a:active:focus {
+  outline: 0 !important;
+  -moz-outline-style: none !important;
+  box-shadow: none !important;
+}
+
+.push-monkey-bootstrap textarea.form-control {
+    height: auto;
+}
+
+/* ====================================================
+   Menu
+   ========================== */
+
+.push-monkey-send-notification-menu-item {
+    color: #2fcc70;
+}
+
+.current .push-monkey-send-notification-menu-item {
+    color: white;
+}
+
+.push-monkey-send-notification-menu-item:hover {
+    color: #25a359;
+}
+
+/* ====================================================
+   Alert
+   ========================== */
+
+.alert {
+    float: none;
+    width: auto;
+}
+
+#wpbody-content > .alert-info {
+    margin: 15px 15px 15px 0;
+}
+
+/* ====================================================
+   Panel
+   ========================== */
+
+.panel .panel-body + .panel-body {
+    padding-top: 0;
+}
+
+/* ====================================================
+   Header
+   ========================== */
+
+.header,
+.header-row {
+    margin-bottom: 20px;
+}
+
+.header-row:last-child {
+    margin-bottom: 0;
+}
+
+.header-logo {
+    float: left;
+}
+
+.header-box {
+    float: right;
+}
+
+.header-row:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+/* ====================================================
+   Notification Format
+   ========================== */
+
+.push-monkey .selection-box {
+    background: white;
+    border: 3px solid white;
+    cursor: pointer;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.push-monkey .selection-box .selection-inner {
+    margin: 10px;
+    position: relative;
+}
+
+.push-monkey .selection-box .selection-inner .notification {
+    height: 52px;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 200px;
+}
+
+.push-monkey .selection-box .selection-inner .notification .icon {
+    margin-top: 10px;
+}
+
+.push-monkey .selection-box .selection-inner .notification p {
+    float: left;
+    margin-top: 8px;
+    width: 130px;
+}
+
+.push-monkey .selection-box .checkmark {
+    background: #2FCC70;
+    bottom: 0;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+
+.push-monkey .selection-box-wrapper input {
+    display: none;
+}
+
+.push-monkey .selection-box-wrapper input + .selection-box {
+
+}
+
+.push-monkey .selection-box-wrapper input:checked + .selection-box {
+    border: 3px solid #2FCC70;
+}
+
+.push-monkey .selection-box-wrapper input + .selection-box .checkmark {
+    opacity: 0;
+}
+
+.push-monkey .selection-box-wrapper input:checked + .selection-box .checkmark {
+    opacity: 1;
+}
+
+
+/* ==========================================================================
+   Messages
+   ========================================================================== */
+
+/* ====================================================
+Unknown Client
+========================== */
+
+body.wp-admin #wpcontent div.push-monkey-unknown-client {
+    background: #fff;
+    background-position: 98% bottom;
+    border: 0;
+    color: #363636;
+    padding: 25px;
+    display: flex;
+}
+
+.push-monkey-unknown-client .button-wrapper {
+    float: left;
+    min-width: 190px;
+    width: 15%;
+}
+
+.push-monkey-unknown-client .text-wrapper {
+    float: left;
+    width: 70%;
+    padding-left: 30px;
+}
+
+.push-monkey-unknown-client .text-wrapper h4 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.push-monkey-unknown-client .text-wrapper a {
+    color: #363636;
+
+    text-decoration: underline;
+}
+
+.push-monkey-unknown-client .text-wrapper a:hover {
+    color: #2FCC70;
+    -webkit-transition: color 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in;
+    -o-transition: color 0.1s ease-in;
+    transition: color 0.1s ease-in;
+}
+
+/* ====================================================
+Expired Notice
+========================== */
+
+body.wp-admin #wpcontent div.push-monkey-expired-notice {
+    background: #E8E8E1 no-repeat;
+    background-position: 98% bottom;
+    border: 0;
+    color: #363636;
+    height: 100px;
+    padding: 0;
+}
+
+.push-monkey-expired-notice .button-wrapper {
+    float: left;
+    margin-top: 30px;
+    min-width: 190px;
+    width: 15%;
+}
+
+.push-monkey-expired-notice .text-wrapper {
+    color: #F64747;
+    float: left;
+    margin-top: 15px;
+    width: 70%;
+}
+
+.push-monkey-expired-notice .text-wrapper h4 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.push-monkey-expired-notice .text-wrapper a {
+    color: #363636;
+}
+
+.push-monkey-expired-notice .text-wrapper a:hover {
+    color: #2FCC70;
+    -webkit-transition: color 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in;
+    -o-transition: color 0.1s ease-in;
+    transition: color 0.1s ease-in;
+}
+
+.push-monkey-expired-notice .push-monkey-btn {
+    background: #F64747;
+}
+
+.push-monkey-expired-notice .push-monkey-btn:hover {
+    background: #df3b3b;
+    color: white;
+    -webkit-transition: background 0.1s ease-in;
+    -moz-transition: background 0.1s ease-in;
+    -ms-transition: background 0.1s ease-in;
+    -o-transition: background 0.1s ease-in;
+    transition: background 0.1s ease-in;
+}
+
+
+/* ====================================================
+Upsell Notice
+========================== */
+
+body.wp-admin #wpcontent div.push-monkey-us-notice {
+    background: none no-repeat scroll 98% bottom #e5e5e5 !important;
+    border: 0;
+    color: #363636;
+    height: 100px;
+    padding: 0;
+    position: relative;
+}
+
+.push-monkey-us-notice .btn {
+    margin-left: 20px;
+}
+
+.push-monkey-us-notice .button-wrapper {
+    float: left;
+    margin-top: 30px;
+    min-width: 190px;
+    width: 15%;
+}
+
+.push-monkey-us-notice .text-wrapper {
+    float: left;
+    margin-top: 30px;
+    width: 70%;
+}
+
+.push-monkey-us-notice .text-wrapper h4 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.push-monkey-us-notice .text-wrapper a {
+    color: #363636;
+}
+
+.push-monkey-us-notice .text-wrapper a:hover {
+    color: #2FCC70;
+    -webkit-transition: color 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in;
+    -o-transition: color 0.1s ease-in;
+    transition: color 0.1s ease-in;
+}
+
+.push-monkey-us-notice .push-monkey-btn:hover {
+    background: #46dd88;
+    color: white;
+    -webkit-transition: background 0.1s ease-in;
+    -moz-transition: background 0.1s ease-in;
+    -ms-transition: background 0.1s ease-in;
+    -o-transition: background 0.1s ease-in;
+    transition: background 0.1s ease-in;
+}
+
+.push-monkey-us-notice .close-btn {
+    opacity: 0.3;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+
+/* ====================================================
+Welcome Notice
+========================== */
+
+body.wp-admin #wpcontent div.push-monkey-welcome-notice .row {
+    background-color: white;
+    background-position: 50px 0;
+    background-repeat: no-repeat;
+    border: 0;
+    border-radius: 10px;
+    color: #363636;
+    padding: 5px;
+    position: relative;
+}
+
+.push-monkey-welcome-notice .close-btn {
+    opacity: 0.3;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.push-monkey-welcome-notice a {
+    color: #2FCC70;
+    text-decoration: underline;
+}
+
+.push-monkey-welcome-notice a:hover {
+    color: #363636;
+    -webkit-transition: color 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in;
+    -o-transition: color 0.1s ease-in;
+    transition: color 0.1s ease-in;
+}
+
+.push-monkey-welcome-notice h4 {
+    margin-top: 10px;
+}
+
+
+/* ==========================================================================
+   Opt Out Meta Box
+   ========================================================================== */
+
+#push_monkey_post_opt_out .inside {
+    background: white;
+}
+
+#push_monkey_post_opt_out .inside {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+#push_monkey_post_opt_out .preview-container {}
+
+#push_monkey_post_opt_out .preview-container h4 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.push-monkey .selection-box .notification,
+#push_monkey_post_opt_out .notification {
+    background: #dedede;
+    border-radius: 6px;
+    border-bottom: 1px solid #bbbbbb;
+    border-right: 1px solid #bbbbbb;
+    min-height: 60px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.push-monkey .selection-box .notification p,
+#push_monkey_post_opt_out .notification p {
+    font-size: 11px;
+    line-height: 1.3em;
+    margin: 0;
+}
+
+.push-monkey .selection-box .notification .icon,
+#push_monkey_post_opt_out .notification .icon {
+    background: #dedede;
+    float: left;
+    height: 32px;
+    margin-right: 10px;
+    margin-top: 3px;
+    width: 32px;
+}
+
+/* ==========================================================================
+   Dashboard Widget
+   ========================================================================== */
+
+#push-monkey-stats-dashboard-widget .inside {
+    background: #f5f5f5 url(../img/bg.png) left top repeat;
+    margin-top: 0;
+    padding-top: 11px;
+}
+
+#push-monkey-push-dashboard-widget .error-message,
+#push-monkey-stats-dashboard-widget .error-message,
+#push_monkey_post_opt_out .error-message {
+    background: #fecfcf;
+    border-radius: 10px;
+    color: #c53131;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#push-monkey-push-dashboard-widget .error-message p,
+#push-monkey-stats-dashboard-widget .error-message p,
+#push_monkey_post_opt_out .error-message p {
+    font-weight: normal;
+    margin: 0;
+}
+
+#push_monkey_post_opt_out .scrolling-container {
+    border-bottom: 1px solid gray;
+    height: 112px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* ==========================================================================
+   Review Notice
+   ========================================================================== */
+
